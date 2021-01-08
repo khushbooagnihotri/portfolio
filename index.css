@@ -289,6 +289,7 @@ img{
   background-image:url(img/backgroundlight.png);
   background-color: var(--second-color);
   color: #fff;
+  background-size: cover;
 }
 .skills__container{
 
@@ -370,6 +371,7 @@ img{
   background-image:url(img/backgroundlight.png);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 
 }
 
