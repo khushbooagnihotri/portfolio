@@ -258,8 +258,8 @@ img{
 /* ===== ABOUT =====*/
 #about{
   background-image:url(img/backgroundlight.png);
-  background-color: #fff;
-  color: var(--second-color);
+  background-color: var(--second-color);
+  color: #fff;
   background-size: cover;
 }
 
