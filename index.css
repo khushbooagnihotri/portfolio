@@ -258,8 +258,9 @@ img{
 /* ===== ABOUT =====*/
 #about{
   background-image:url(img/backgroundlight.png);
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: #fff;
+  color: var(--second-color);
+  background-size: cover;
 }
 
 .about__text{
@@ -369,8 +370,8 @@ img{
 /* ===== CONTACT =====*/
 #contact{
   background-image:url(img/backgroundlight.png);
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: #fff;
+  color: var(--second-color);
   background-size: cover;
 
 }
