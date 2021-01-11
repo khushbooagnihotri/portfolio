@@ -89,7 +89,7 @@ img{
   position: relative;
   display: inline-block;
   overflow: hidden;
-  margin: 0;
+  margin: 1rem;
 }
 
 .ml6 .letter {
@@ -102,8 +102,8 @@ img{
   position: relative;
   font-size: var(--h2-font-size);
   color: var(--first-color);
-  margin-top: var(--mb-2);
-  margin-bottom: var(--mb-4);
+  margin-top: var(--mb-1);
+  margin-bottom: var(--mb-2);
   text-align: center;
 }
 .section-title::after{
@@ -114,12 +114,12 @@ img{
   left: 0;
   right: 0;
   margin: auto;
-  top: 2rem;
+  top: 1rem;
   background-color: var(--first-color);
 }
 .section{
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
 }
 
 /*===== LAYOUT =====*/
@@ -160,7 +160,7 @@ img{
     height: 100%;
     padding: 2rem;
     background-color: var(--second-color);
-    transition: .5s;
+    transition: .3s;
   }
 }
 .nav__item{
@@ -211,6 +211,7 @@ img{
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
+  padding-bottom: 4rem;
 }
 .home__data{
   align-self: center;
@@ -242,7 +243,7 @@ img{
 .home__img{
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 1.5rem;
   width: 295px;
 }
 
